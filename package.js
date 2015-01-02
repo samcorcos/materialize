@@ -6,6 +6,9 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+  api.use([
+    'particle4dev:sass'
+    ])
   api.versionsFrom('1.0.2.1');
   api.addFiles('samcorcos:materialize.js');
 });
